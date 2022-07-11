@@ -1,0 +1,62 @@
+0000: D7 xlat
+0001: D7 xlat
+0002: D1D8 rcr ax, 1
+0004: D2D9 rcr cl, cl
+0006: D0D8 rcr al, 1
+0008: D01E8201 rcr [0182h], 1
+000C: D21E8201 rcr [0182h], cl
+0010: F7F0 UNKNOWN
+0012: F6B5 UNKNOWN
+0014: 34 UNKNOWN
+0015: 12 UNKNOWN
+0016: D2D1 UNKNOWN
+0018: D0D0 UNKNOWN
+001A: F7D0 not ax
+001C: F6168101 not [0181h]
+0020: F6D0 not al
+0022: F6D7 not bh
+0024: F7D7 not di
+0026: E625 out 25h, al
+0028: E712 out 12h, ax
+002A: EE out dx, al
+002B: EE out dx, al
+002C: EF out dx, ax
+002D: 8BC0 mov ax, ax
+002F: 8BD9 mov bx, cx
+0031: 8AF4 mov dh, ah
+0033: 8AFB mov bh, bl
+0035: 8BFE mov di, si
+0037: 8AD0 mov dl, al
+0039: 8ADE mov bl, dh
+003B: B045 mov al, 45h
+003D: B84512 mov ax, 1245h
+0040: BA6545 mov dx, 4565h
+0043: C606800145 mov [0180h], 45h
+0048: 90 UNKNOWN
+0049: BE3412 mov si, 1234h
+004C: A17E01 mov ax, ds:[017Eh]
+004F: A08001 mov al, ds:[0180h]
+0052: A28001 mov ds:[0180h], al
+0055: A37E01 mov ds:[017Eh], ax
+0058: 8A268001 mov ah, [0180h]
+005C: 88268001 mov [0180h], ah
+0060: 8E067E01 mov es, [017Eh]
+0064: 8C1E7E01 mov [017Eh], ds
+0068: 8EC2 mov es, dx
+006A: 8EC0 mov es, ax
+006C: 8EDA mov ds, dx
+006E: 8CCA mov dx, cs
+0070: 8ED6 mov ss, si
+0072: 8EDC mov ds, sp
+0074: 8EDC mov ds, sp
+0076: 8EDC mov ds, sp
+0078: 8EDC mov ds, sp
+007A: 8EDC mov ds, sp
+007C: 8EDC mov ds, sp
+007E: 00 UNKNOWN
+007F: 00 UNKNOWN
+0080: 00 UNKNOWN
+0081: 07 UNKNOWN
+0082: 13 UNKNOWN
+0083: 00 UNKNOWN
+0084: end
